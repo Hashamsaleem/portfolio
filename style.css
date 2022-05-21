@@ -1,0 +1,119 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    background-color: cornsilk;
+}
+#header{
+            font-size: larger;
+            text-align: center;
+            text-transform: uppercase;
+            background-color:hwb(221 10% 5%) ;
+            color:white;
+            border-radius: 15px;
+            padding: 0.5%;
+            border: 0.5px solid maroon;
+        
+}
+
+#Options{
+    list-style-type:none;
+}
+#Options>li{
+    padding: 12%;
+    font-weight: bold;
+    font-size: large;
+
+}
+#Options>li>a{
+    text-decoration: none;
+    color:white;
+}
+#Options>li>a:hover{
+    color: white;
+}
+#Options>li:hover{
+    background-color: black;
+    border-radius: 35px;
+    text-decoration: underline;
+}
+#box{
+    background-color:hwb(221 10% 5%);
+    border-radius: 30px;
+    width: 15%;
+    float: left;
+    border: 0.5px solid maroon;
+}
+#main{
+    background-color:#fff;
+    width: 70%;
+    height: 50%;
+    float: left;
+    margin: 2px 15px;
+    padding-left: 10px;
+    border-radius: 3%;
+    
+}
+#profile{
+    margin: 2% 2% 0% 0%;
+    float: right;
+    border: 3px dotted black;
+    border-radius: 15px;
+}
+span{
+    margin-top: 30%;
+    padding-left: 10%;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 100px;
+}
+#detail{
+    font-size: 25px;
+    
+}
+#btn{
+    background-color:hwb(221 10% 5%);
+    margin: 5% 0% 0% 20%;
+    border: 1px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+
+}
+#btn> a{
+    text-decoration: none;
+    color: white;
+}
+#btn:hover{
+    background-color: black;
+    font-style: oblique;
+    border-radius: 20px;
+    text-decoration: underline;
+}
+.All>h2{
+    margin-top: 4%;
+    background-color: hwb(221 10% 5%);
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 20px;
+    text-transform: uppercase;
+    border: 0.5px solid maroon;
+
+}
+.Bullets>li{
+color: black;
+list-style-type: circle;
+padding: 1%;
+font-size:25px ;
+}
+.Bullets>li>abbr{
+    text-decoration: none;
+}
+    
+.con>a{
+    text-decoration: none;
+    font-size: 25px;
+}
